@@ -1,7 +1,12 @@
 import "./App.css";
+import HomePage from "./pages/home";
 
 function App() {
-  return <div>Poppins a</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
